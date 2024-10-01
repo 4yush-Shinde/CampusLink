@@ -1,0 +1,167 @@
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#f6f5f3, #eeedf0);
+}
+
+
+
+
+
+
+
+
+
+
+.site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    color: rgb(79, 102, 216);
+    z-index: 2;
+    border-radius: 7px;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Fonts/recoleta-regulardemo.otf') format('woff2');
+
+  }
+
+
+  header h1 {
+    font-size: 3em;
+    font-family: 'Recoleta', sans-serif;
+  }
+
+.header-content {
+    /* margin:  auto; */
+    margin-top: -15px;
+    text-align: center;
+    color: #000000;
+    
+}
+nav {
+    position: absolute;
+    top: 6em;
+    right: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1em;
+}
+
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: #444;
+    /* box-shadow: 0 0 10px rgba(7, 112, 232, 0.6); */
+
+    border-radius: 5px;
+    
+}
+
+nav ul li a:hover {
+   
+    box-shadow: 0 0 10px rgba(76, 76, 77, 0.588);
+    background-color: #555555c4;
+
+}
+
+
+
+.login-container {
+    background-color: #fff;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    border-radius: 25px;
+    /* border-radius:  0px 25px 25px 0px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 520px;
+    margin-bottom: 0;
+    margin-top: 250px;
+    text-align: center;
+    background-image: url('Images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+.options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options ul li {
+    display: inline;
+    margin-left: 18px;
+}
+
+.options ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.6em 1em;
+    /* background-color: #444; */
+    /* box-shadow: 0 0 10px rgba(7, 112, 232, 0.6); */
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+.fl {
+    background-color: #ff0800;
+}
+
+.fl:hover {
+    background-color: #bc140e;
+    box-shadow: 0 0 4px rgb(255, 25, 0);
+
+}
+
+
+.sl {
+    background-color: #297afc;
+}
+
+.sl:hover {
+    background-color: #0d50bc;
+        box-shadow: 0 0 4px rgb(0, 145, 255);
+    transform: scale(1.1);
+}
